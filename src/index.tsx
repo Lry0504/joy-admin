@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.less';
 import App from './App';
+import 'dayjs/locale/zh-cn';
 import reportWebVitals from './reportWebVitals';
+import dayjs from 'dayjs';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,6 +13,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+dayjs.locale('zh-cn');
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
