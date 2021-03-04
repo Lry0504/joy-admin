@@ -12,11 +12,17 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "antd": "^4.13.0",
+    "circular-dependency-plugin": "^5.2.2",
+    "craco-antd": "^1.19.0",
     "craco-less": "^1.17.1",
+    "craco-vtk": "^1.0.2",
     "dayjs": "^1.10.4",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
+    "terser-webpack-plugin": "^5.1.1",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -45,6 +51,18 @@
     ]
   },
   "devDependencies": {
-    "antd-dayjs-webpack-plugin": "^1.0.6"
-  }
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "antd-dayjs-webpack-plugin": "^1.0.6",
+    "babel-plugin-import": "^1.13.3",
+    "compression-webpack-plugin": "^7.1.2",
+    "craco-plugin-react-hot-reload": "^0.1.0",
+    "simple-progress-webpack-plugin": "^1.1.2",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-dashboard": "^3.3.1",
+    "webpackbar": "^5.0.0-3"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:Lry0504/joy-admin.git",
+  "author": "lry <lry885175073@163.com>",
+  "license": "MIT"
 }
