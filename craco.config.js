@@ -51,16 +51,20 @@ const getPathRewriteFunc = (curPath, keys) => {
 module.exports = {
   webpack: {
     // Alias configuration
-    alias: {
-      '@': pathResolve('.'),
-      src: pathResolve('src'),
-      pages: pathResolve('src/pages'),
-      assets: pathResolve('src/assets'),
-      components: pathResolve('src/components'),
-      utils: pathResolve('src/utils'),
-      store: pathResolve('src/store'),
-      hooks: pathResolve('src/hooks')
-    },
+    // alias: {
+    //   '@': pathResolve('.'),
+    //   src: pathResolve('src'),
+    //   api: pathResolve('src/api'),
+    //   config: pathResolve('../config'),
+    //   pages: pathResolve('src/pages'),
+    //   assets: pathResolve('src/assets'),
+    //   components: pathResolve('src/components'),
+    //   services: pathResolve('src/services'),
+    //   utils: pathResolve('src/utils'),
+    //   store: pathResolve('src/store'),
+    //   router: pathResolve('src/router'),
+    //   hooks: pathResolve('src/hooks')
+    // },
     plugins: [
       new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
       // The time conversion tool replace moment with day
